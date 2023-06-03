@@ -1,7 +1,25 @@
 #aze {
-    background-color:aqua;
-    font-family: 'Courier New', Courier, monospace;
+    background-image: url("Images/background.jpg");
+    animation: slow-scroll 20s infinite linear;
 }
+
+@keyframes slow-scroll {
+    0% {
+      background-position: 0 0;
+    }
+    40% {
+      background-position: 0 -140px;
+    }
+    50% {
+        background-position: 0 -150px;
+      }
+      90% {
+        background-position: 0 -10px;
+      }
+    100% {
+        background-position: 0 0px;
+      }
+  }
 #menuup {
     background: rgba(15, 110, 165, 0.5);
     width: 100%;
@@ -12,20 +30,52 @@
     color: azure;
 }
 
-#presentation{
-    background-color: rgba(15, 110, 165, 0.5);
-}
-#tabinfo{
-    width: 100%;
-    height: 1000px;
-}
-#comp, #form, #expe{
-    background: white;
-    margin: 20px;  
+#lang, #tech, #autr{
+    width: 250px;
 }
 
-#CVtitre, #formations, #EXP{
+#lang{
+    float: left;
+}
+#autr{
+    float: right;
+}
+#tech{
+    margin:auto;
+}
+
+#tabinfo{
+    width: 100%;
+}
+#talk{
+    margin-left: 10%;
+}
+#comp, #form, #expe, #presentation{
+    background: white;
+    margin-top: 2%;
+    width: 90%;
+    border-radius: 20px;
     text-align: center;
+}
+
+#presentation{
+    width: 90%;
+    height: 200px;
+    border-radius: 20px;
+    text-align: justify;
+}
+
+#contact{
+    width:40%;
+    float:left;
+    text-align: center;
+}
+#resum{
+    margin-right: 75px;
+    text-align: justify;
+}
+
+#CVtitre, #formations, #EXP, #contacttitle{
     text-decoration: underline;
 }
 #photo{
@@ -34,3 +84,18 @@
     height: 120px;
 
 }
+
+
+
+.carousel-item {
+    text-align: center;
+    height: 300px;
+  }
+  .carousel-item h3 {
+    margin-top: 100px;
+  }
+
+  .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      filter: invert(100%);
+    }
