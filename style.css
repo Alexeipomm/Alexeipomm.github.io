@@ -31,17 +31,21 @@
 }
 
 #lang, #tech, #autr{
-    width: 250px;
+    width: 25%
+    font-size: large;
 }
 
 #lang{
     float: left;
+    margin-left: 5%;
 }
 #autr{
     float: right;
+    margin-right: 5%;
 }
 #tech{
     margin:auto;
+    width:40%;
 }
 
 #tabinfo{
@@ -56,13 +60,7 @@
     width: 90%;
     border-radius: 20px;
     text-align: center;
-}
-
-#presentation{
-    width: 90%;
-    height: 200px;
-    border-radius: 20px;
-    text-align: justify;
+    min-height: 225px;
 }
 
 #contact{
@@ -71,25 +69,21 @@
     text-align: center;
 }
 #resum{
-    margin-right: 75px;
-    text-align: justify;
+    margin-right: 5%;
+    float: right;
+    width: 55%;
+    font-size: large;
 }
 
 #CVtitre, #formations, #EXP, #contacttitle{
     text-decoration: underline;
-}
-#photo{
-
-    width:200px;
-    height: 120px;
-
 }
 
 
 
 .carousel-item {
     text-align: center;
-    height: 300px;
+    min-height: 350px;
   }
   .carousel-item h3 {
     margin-top: 100px;
