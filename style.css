@@ -63,6 +63,9 @@
     min-height: 225px;
 }
 
+#presentation{
+  min-height: 250px;
+}
 #contact{
     width:40%;
     float:left;
