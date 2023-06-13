@@ -76,6 +76,7 @@
     float: right;
     width: 55%;
     font-size: large;
+    text-align: justify;
 }
 
 #CVtitre, #formations, #EXP, #contacttitle{
