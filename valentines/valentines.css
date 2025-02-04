@@ -69,7 +69,6 @@ button:focus {
 }
 
 .no-btn {
-    position: absolute;
     background-color: #ff4d4d;
     color: white;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -79,3 +78,12 @@ button:focus {
     background-color: #e43e3e;
     transform: scale(1.05);
 }
+
+.confetti {
+    position: absolute;
+    width: 50%;
+    height: 90%;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
