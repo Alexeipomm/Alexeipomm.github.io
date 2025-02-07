@@ -6,7 +6,7 @@ const gif = document.querySelector(".gif");
 
 // Change text and gif when the Yes button is clicked
 yesBtn.addEventListener("click", () => {
-    question.innerHTML = "❤️ Thanks to accept me as your valentines!! Let's plan a date to celebrate ❤️";
+    question.innerHTML = "❤️ Thanks to accept me as your Valentine!!\n Let's plan a date to celebrate ❤️";
     gif.src = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGlyem4xMjM1OHowM21oNDhjMnM1cTZ1b3FsdzMxamNoaHk4Zm84biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l41JWw65TcBGjPpRK/giphy.gif";
     
     var scalar = 2;
