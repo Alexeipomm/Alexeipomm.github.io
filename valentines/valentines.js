@@ -42,9 +42,10 @@ yesBtn.addEventListener("click", () => {
         });
       }
 
-      // Hide the No button
+      // Hide the buttons
       noBtn.style.display = "none";
-
+      yesBtn.style.display = "none";
+    
       setTimeout(shoot, 0);
       var interval = setInterval(function() {
         shoot();
