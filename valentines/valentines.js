@@ -1,5 +1,6 @@
 const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
+const yesBtn = document.querySelector(".yes-btn");
 const question = document.querySelector(".question");
 const gif = document.querySelector(".gif");
 
